@@ -44,7 +44,7 @@ instruction_year = "Si sabes, vas a decir el año de lanzamiento de la película
 
 #Definimos el prompt
 movie = movies[0]['title']
-prompt = f"{instruction} Has una descripción de la película {movie}"
+prompt = f"{instruction} Crea una descripcion clara y concisa de la pelicula con detalles clave como generos, sinopsis, actores, entre otros. {movie}"
 
 print(prompt)
 
